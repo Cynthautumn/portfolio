@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img"><defs>
+  <pattern id="yunp07" width="96" height="96" patternUnits="userSpaceOnUse">
+    <path d="M48 6 L90 48 L48 90 L6 48 Z" fill="none" stroke="#D9B97C" stroke-width="1" opacity=".62"/>
+    <path d="M48 24 L72 48 L48 72 L24 48 Z" fill="none" stroke="#D9B97C" stroke-width="0.8" opacity=".42"/>
+    <path d="M48 40 c 8 0 8 8 0 8 c -8 0 -8 -8 0 -8 Z" fill="#D9B97C" opacity=".55"/>
+    <path d="M48 0 v 10 M48 86 v 10 M0 48 h 10 M86 48 h 10" stroke="#D9B97C" stroke-width="0.7" opacity=".3"/>
+  </pattern>
+  <pattern id="yunDensep07" width="64" height="64" patternUnits="userSpaceOnUse">
+    <path d="M32 4 L60 32 L32 60 L4 32 Z" fill="none" stroke="#D9B97C" stroke-width="0.9" opacity=".5"/>
+    <circle cx="32" cy="32" r="3.4" fill="#D9B97C" opacity=".55"/>
+    <circle cx="0" cy="0" r="2.2" fill="#D9B97C" opacity=".35"/>
+    <circle cx="64" cy="64" r="2.2" fill="#D9B97C" opacity=".35"/>
+  </pattern>
+  <pattern id="brickp07" width="104" height="52" patternUnits="userSpaceOnUse">
+    <rect width="104" height="52" fill="none"/>
+    <path d="M0 0 H104 M0 26 H104 M0 52 H104 M52 0 V26 M0 26 V52 M104 26 V52"
+          stroke="#1B2426" stroke-width="1.1" opacity=".3" fill="none"/>
+    <path d="M0 0 H104" stroke="#1B2426" stroke-width="1.4" opacity=".18"/>
+  </pattern>
+  <pattern id="wavep07" width="44" height="20" patternUnits="userSpaceOnUse">
+    <path d="M0 15 q 11 -11 22 0 t 22 0" fill="none" stroke="#5F7F78" stroke-width="0.9" opacity=".35"/>
+  </pattern>
+  <filter id="softp07" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="16"/>
+  </filter>
+  <filter id="grainp07" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="11"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+  </filter>
+  <radialGradient id="halop07" cx="50%" cy="46%" r="55%">
+    <stop offset="0" stop-color="#FFF9EC" stop-opacity=".95"/>
+    <stop offset="62%" stop-color="#F6EEDC" stop-opacity=".35"/>
+    <stop offset="100%" stop-color="#E7DAC1" stop-opacity="0"/>
+  </radialGradient>
+</defs><rect width="800" height="800" fill="#F4ECDB"/><rect width="800" height="800" fill="url(#wavep07)" opacity=".22"/><rect width="800" height="800" fill="url(#halop07)"/><rect width="800" height="800" filter="url(#grainp07)" opacity=".6"/>
+  <defs>
+    <linearGradient id="brassp07" x1="0" y1="0" x2="1" y2=".15">
+      <stop offset="0" stop-color="#7E5B29"/><stop offset=".26" stop-color="#EBD1A0"/>
+      <stop offset=".5" stop-color="#C6A05F"/><stop offset=".76" stop-color="#E9D2A2"/>
+      <stop offset="1" stop-color="#7A5626"/>
+    </linearGradient>
+  </defs><ellipse cx="400" cy="700" rx="172" ry="16" fill="#3B2E22" opacity=".22" filter="url(#softp07)"/>
+  <g transform="translate(284 235.0) rotate(-8 0 165.0)">
+    <path d="M-46 0 h92 v 284 a 46 46 0 0 1 -92 0 z" fill="url(#brassp07)" stroke="#5E411C" stroke-width="1.6"/>
+    <path d="M-38 8 h76 v 238 a 38 38 0 0 1 -76 0 z" fill="none" stroke="#F4ECDB" stroke-width="1.3" opacity=".55"/>
+    <g fill="#F4ECDB" opacity=".95" transform="translate(0 72.6)"><path d="M0 -150 v 54 a 24 24 0 0 0 48 0 v -54 z" transform="translate(-24 0)"/></g>
+    <g fill="none" stroke="#5B3F1D" stroke-width="1.1" opacity=".45">
+      <path d="M-30 171.6 q 30 -24 60 0 q -30 24 -60 0 Z"/>
+      <path d="M-30 217.8 q 30 -24 60 0 q -30 24 -60 0 Z"/>
+    </g>
+    <circle cx="0" cy="10" r="3.4" fill="#F4ECDB" opacity=".9"/>
+    <path d="M0 0 v -22" stroke="#9C2B25" stroke-width="2.6"/>
+    <path d="M-8 -22 h16" stroke="#B08246" stroke-width="3.2"/>
+    <path d="M0 -22 v 20 M0 -22 l -8 16 M0 -22 l 8 16" stroke="#9C2B25" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(400 250.0) rotate(0 0 150.0)">
+    <path d="M-46 0 h92 v 254 a 46 46 0 0 1 -92 0 z" fill="url(#brassp07)" stroke="#5E411C" stroke-width="1.6"/>
+    <path d="M-38 8 h76 v 208 a 38 38 0 0 1 -76 0 z" fill="none" stroke="#F4ECDB" stroke-width="1.3" opacity=".55"/>
+    <g fill="#F4ECDB" opacity=".95" transform="translate(0 66.0)"><path d="M0 -146 l 30 26 l -12 40 h -36 l -12 -40 z" transform="rotate(0)"/></g>
+    <g fill="none" stroke="#5B3F1D" stroke-width="1.1" opacity=".45">
+      <path d="M-30 156.0 q 30 -24 60 0 q -30 24 -60 0 Z"/>
+      <path d="M-30 198.0 q 30 -24 60 0 q -30 24 -60 0 Z"/>
+    </g>
+    <circle cx="0" cy="10" r="3.4" fill="#F4ECDB" opacity=".9"/>
+    <path d="M0 0 v -22" stroke="#9C2B25" stroke-width="2.6"/>
+    <path d="M-8 -22 h16" stroke="#B08246" stroke-width="3.2"/>
+    <path d="M0 -22 v 20 M0 -22 l -8 16 M0 -22 l 8 16" stroke="#9C2B25" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(516 239.0) rotate(8 0 161.0)">
+    <path d="M-46 0 h92 v 276 a 46 46 0 0 1 -92 0 z" fill="url(#brassp07)" stroke="#5E411C" stroke-width="1.6"/>
+    <path d="M-38 8 h76 v 230 a 38 38 0 0 1 -76 0 z" fill="none" stroke="#F4ECDB" stroke-width="1.3" opacity=".55"/>
+    <g fill="#F4ECDB" opacity=".95" transform="translate(0 70.84)"><path d="M-24 -142 h 48 v 34 a 24 24 0 0 1 -48 0 z"/></g>
+    <g fill="none" stroke="#5B3F1D" stroke-width="1.1" opacity=".45">
+      <path d="M-30 167.44 q 30 -24 60 0 q -30 24 -60 0 Z"/>
+      <path d="M-30 212.52 q 30 -24 60 0 q -30 24 -60 0 Z"/>
+    </g>
+    <circle cx="0" cy="10" r="3.4" fill="#F4ECDB" opacity=".9"/>
+    <path d="M0 0 v -22" stroke="#9C2B25" stroke-width="2.6"/>
+    <path d="M-8 -22 h16" stroke="#B08246" stroke-width="3.2"/>
+    <path d="M0 -22 v 20 M0 -22 l -8 16 M0 -22 l 8 16" stroke="#9C2B25" stroke-width="1.5"/>
+  </g></svg>

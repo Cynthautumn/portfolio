@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img"><defs>
+  <pattern id="yunp03" width="96" height="96" patternUnits="userSpaceOnUse">
+    <path d="M48 6 L90 48 L48 90 L6 48 Z" fill="none" stroke="#D9B97C" stroke-width="1" opacity=".62"/>
+    <path d="M48 24 L72 48 L48 72 L24 48 Z" fill="none" stroke="#D9B97C" stroke-width="0.8" opacity=".42"/>
+    <path d="M48 40 c 8 0 8 8 0 8 c -8 0 -8 -8 0 -8 Z" fill="#D9B97C" opacity=".55"/>
+    <path d="M48 0 v 10 M48 86 v 10 M0 48 h 10 M86 48 h 10" stroke="#D9B97C" stroke-width="0.7" opacity=".3"/>
+  </pattern>
+  <pattern id="yunDensep03" width="64" height="64" patternUnits="userSpaceOnUse">
+    <path d="M32 4 L60 32 L32 60 L4 32 Z" fill="none" stroke="#D9B97C" stroke-width="0.9" opacity=".5"/>
+    <circle cx="32" cy="32" r="3.4" fill="#D9B97C" opacity=".55"/>
+    <circle cx="0" cy="0" r="2.2" fill="#D9B97C" opacity=".35"/>
+    <circle cx="64" cy="64" r="2.2" fill="#D9B97C" opacity=".35"/>
+  </pattern>
+  <pattern id="brickp03" width="104" height="52" patternUnits="userSpaceOnUse">
+    <rect width="104" height="52" fill="none"/>
+    <path d="M0 0 H104 M0 26 H104 M0 52 H104 M52 0 V26 M0 26 V52 M104 26 V52"
+          stroke="#1B2426" stroke-width="1.1" opacity=".3" fill="none"/>
+    <path d="M0 0 H104" stroke="#1B2426" stroke-width="1.4" opacity=".18"/>
+  </pattern>
+  <pattern id="wavep03" width="44" height="20" patternUnits="userSpaceOnUse">
+    <path d="M0 15 q 11 -11 22 0 t 22 0" fill="none" stroke="#5F7F78" stroke-width="0.9" opacity=".35"/>
+  </pattern>
+  <filter id="softp03" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="16"/>
+  </filter>
+  <filter id="grainp03" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="11"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+  </filter>
+  <radialGradient id="halop03" cx="50%" cy="46%" r="55%">
+    <stop offset="0" stop-color="#FFF9EC" stop-opacity=".95"/>
+    <stop offset="62%" stop-color="#F6EEDC" stop-opacity=".35"/>
+    <stop offset="100%" stop-color="#E7DAC1" stop-opacity="0"/>
+  </radialGradient>
+</defs><rect width="800" height="800" fill="#F4ECDB"/><rect width="800" height="800" fill="url(#yunDensep03)" opacity=".22"/><rect width="800" height="800" fill="url(#halop03)"/><rect width="800" height="800" filter="url(#grainp03)" opacity=".6"/><ellipse cx="400" cy="700" rx="130" ry="16" fill="#3B2E22" opacity=".22" filter="url(#softp03)"/><circle cx="298" cy="272" r="13" fill="none" stroke="#B08246" stroke-width="2.4"/><path d="M284 278 q 14 -34 28 0" fill="none" stroke="#B08246" stroke-width="2"/><path d="M298 286 v 62" stroke="#B08246" stroke-width="2"/><circle cx="298" cy="350" r="5" fill="#B08246"/><path d="M298 350 v 18" stroke="#B08246" stroke-width="2"/>
+    <g transform="rotate(-6 298 486)">
+      <path d="M298.0 423.3 Q298.0 423.3 321.9 426.8 Q345.9 430.2 360.3 447.6 Q374.7 464.9 373.7 485.7 Q372.6 506.5 357.3 521.9 Q342.0 537.2 320.0 546.7 Q298.0 556.1 273.6 549.5 Q249.2 542.9 236.0 524.8 Q222.9 506.6 223.0 486.0 Q223.0 465.4 238.4 450.0 Q253.9 434.6 275.9 429.0 Z" fill="#EFE2C8" stroke="#7C6A4F" stroke-width="1.6"/>
+      <clipPath id="stone21"><path d="M298.0 423.3 Q298.0 423.3 321.9 426.8 Q345.9 430.2 360.3 447.6 Q374.7 464.9 373.7 485.7 Q372.6 506.5 357.3 521.9 Q342.0 537.2 320.0 546.7 Q298.0 556.1 273.6 549.5 Q249.2 542.9 236.0 524.8 Q222.9 506.6 223.0 486.0 Q223.0 465.4 238.4 450.0 Q253.9 434.6 275.9 429.0 Z"/></clipPath>
+      <g clip-path="url(#stone21)"><path d="M188.8 434.5 q 109.19999999999999 -36.300000000000004 218.39999999999998 0" fill="none" stroke="#B7563F" stroke-width="12.5" opacity=".78"/><path d="M188.8 458.3 q 109.19999999999999 -36.300000000000004 218.39999999999998 0" fill="none" stroke="#E8D6B4" stroke-width="12.5" opacity=".78"/><path d="M188.8 482.0 q 109.19999999999999 -36.300000000000004 218.39999999999998 0" fill="none" stroke="#8FA8A0" stroke-width="12.5" opacity=".78"/><path d="M188.8 505.8 q 109.19999999999999 -36.300000000000004 218.39999999999998 0" fill="none" stroke="#C99A63" stroke-width="12.5" opacity=".78"/><path d="M188.8 529.6 q 109.19999999999999 -36.300000000000004 218.39999999999998 0" fill="none" stroke="#D8C3A0" stroke-width="12.5" opacity=".78"/>
+        <path d="M298.0 423.3 Q298.0 423.3 321.9 426.8 Q345.9 430.2 360.3 447.6 Q374.7 464.9 373.7 485.7 Q372.6 506.5 357.3 521.9 Q342.0 537.2 320.0 546.7 Q298.0 556.1 273.6 549.5 Q249.2 542.9 236.0 524.8 Q222.9 506.6 223.0 486.0 Q223.0 465.4 238.4 450.0 Q253.9 434.6 275.9 429.0 Z" fill="none" stroke="#5F503A" stroke-width="1.2"/>
+        <ellipse cx="273.04" cy="458.28" rx="23.4" ry="10.56" fill="#FFFFFF" opacity=".55" transform="rotate(-28 298 486)"/>
+        <ellipse cx="318.28" cy="519.0" rx="31.200000000000003" ry="7.92" fill="#FFFFFF" opacity=".18"/>
+      </g>
+    </g><circle cx="506" cy="316" r="13" fill="none" stroke="#B08246" stroke-width="2.4"/><path d="M492 322 q 14 -34 28 0" fill="none" stroke="#B08246" stroke-width="2"/><path d="M506 330 v 62" stroke="#B08246" stroke-width="2"/><circle cx="506" cy="394" r="5" fill="#B08246"/><path d="M506 394 v 18" stroke="#B08246" stroke-width="2"/>
+    <g transform="rotate(7 506 530)">
+      <path d="M506.0 462.3 Q506.0 462.3 526.0 472.4 Q546.0 482.6 557.6 497.4 Q569.3 512.3 575.3 531.7 Q581.3 551.1 563.8 564.4 Q546.3 577.8 526.2 583.1 Q506.0 588.4 484.1 585.2 Q462.1 582.0 450.4 565.4 Q438.7 548.8 435.4 529.1 Q432.0 509.3 448.7 495.5 Q465.3 481.8 485.6 472.0 Z" fill="#EFE2C8" stroke="#7C6A4F" stroke-width="1.6"/>
+      <clipPath id="stone22"><path d="M506.0 462.3 Q506.0 462.3 526.0 472.4 Q546.0 482.6 557.6 497.4 Q569.3 512.3 575.3 531.7 Q581.3 551.1 563.8 564.4 Q546.3 577.8 526.2 583.1 Q506.0 588.4 484.1 585.2 Q462.1 582.0 450.4 565.4 Q438.7 548.8 435.4 529.1 Q432.0 509.3 448.7 495.5 Q465.3 481.8 485.6 472.0 Z"/></clipPath>
+      <g clip-path="url(#stone22)"><path d="M405.2 481.6 q 100.8 -34.1 201.6 0" fill="none" stroke="#B7563F" stroke-width="11.8" opacity=".78"/><path d="M405.2 504.0 q 100.8 -34.1 201.6 0" fill="none" stroke="#E8D6B4" stroke-width="11.8" opacity=".78"/><path d="M405.2 526.3 q 100.8 -34.1 201.6 0" fill="none" stroke="#8FA8A0" stroke-width="11.8" opacity=".78"/><path d="M405.2 548.6 q 100.8 -34.1 201.6 0" fill="none" stroke="#C99A63" stroke-width="11.8" opacity=".78"/><path d="M405.2 570.9 q 100.8 -34.1 201.6 0" fill="none" stroke="#D8C3A0" stroke-width="11.8" opacity=".78"/>
+        <path d="M506.0 462.3 Q506.0 462.3 526.0 472.4 Q546.0 482.6 557.6 497.4 Q569.3 512.3 575.3 531.7 Q581.3 551.1 563.8 564.4 Q546.3 577.8 526.2 583.1 Q506.0 588.4 484.1 585.2 Q462.1 582.0 450.4 565.4 Q438.7 548.8 435.4 529.1 Q432.0 509.3 448.7 495.5 Q465.3 481.8 485.6 472.0 Z" fill="none" stroke="#5F503A" stroke-width="1.2"/>
+        <ellipse cx="482.96" cy="503.96" rx="21.599999999999998" ry="9.92" fill="#FFFFFF" opacity=".55" transform="rotate(-28 506 530)"/>
+        <ellipse cx="524.72" cy="561.0" rx="28.8" ry="7.4399999999999995" fill="#FFFFFF" opacity=".18"/>
+      </g>
+    </g><g transform="translate(674 66)">
+    <rect width="40" height="40" rx="3" fill="#9C2B25"/>
+    <rect x="3" y="3" width="34" height="34" rx="2" fill="none" stroke="#F6E9D8" stroke-width="1" opacity=".8"/>
+    <text x="20.0" y="26.0" text-anchor="middle" font-family="'Noto Serif SC','STZhongsong','SimSun',serif" font-size="17.6" fill="#F6E9D8" letter-spacing="1">金陵</text>
+  </g></svg>

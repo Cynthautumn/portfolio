@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img"><defs>
+  <pattern id="yunp05" width="96" height="96" patternUnits="userSpaceOnUse">
+    <path d="M48 6 L90 48 L48 90 L6 48 Z" fill="none" stroke="#D9B97C" stroke-width="1" opacity=".62"/>
+    <path d="M48 24 L72 48 L48 72 L24 48 Z" fill="none" stroke="#D9B97C" stroke-width="0.8" opacity=".42"/>
+    <path d="M48 40 c 8 0 8 8 0 8 c -8 0 -8 -8 0 -8 Z" fill="#D9B97C" opacity=".55"/>
+    <path d="M48 0 v 10 M48 86 v 10 M0 48 h 10 M86 48 h 10" stroke="#D9B97C" stroke-width="0.7" opacity=".3"/>
+  </pattern>
+  <pattern id="yunDensep05" width="64" height="64" patternUnits="userSpaceOnUse">
+    <path d="M32 4 L60 32 L32 60 L4 32 Z" fill="none" stroke="#D9B97C" stroke-width="0.9" opacity=".5"/>
+    <circle cx="32" cy="32" r="3.4" fill="#D9B97C" opacity=".55"/>
+    <circle cx="0" cy="0" r="2.2" fill="#D9B97C" opacity=".35"/>
+    <circle cx="64" cy="64" r="2.2" fill="#D9B97C" opacity=".35"/>
+  </pattern>
+  <pattern id="brickp05" width="104" height="52" patternUnits="userSpaceOnUse">
+    <rect width="104" height="52" fill="none"/>
+    <path d="M0 0 H104 M0 26 H104 M0 52 H104 M52 0 V26 M0 26 V52 M104 26 V52"
+          stroke="#1B2426" stroke-width="1.1" opacity=".3" fill="none"/>
+    <path d="M0 0 H104" stroke="#1B2426" stroke-width="1.4" opacity=".18"/>
+  </pattern>
+  <pattern id="wavep05" width="44" height="20" patternUnits="userSpaceOnUse">
+    <path d="M0 15 q 11 -11 22 0 t 22 0" fill="none" stroke="#5F7F78" stroke-width="0.9" opacity=".35"/>
+  </pattern>
+  <filter id="softp05" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="16"/>
+  </filter>
+  <filter id="grainp05" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="11"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+  </filter>
+  <radialGradient id="halop05" cx="50%" cy="46%" r="55%">
+    <stop offset="0" stop-color="#FFF9EC" stop-opacity=".95"/>
+    <stop offset="62%" stop-color="#F6EEDC" stop-opacity=".35"/>
+    <stop offset="100%" stop-color="#E7DAC1" stop-opacity="0"/>
+  </radialGradient>
+</defs><rect width="800" height="800" fill="#F4ECDB"/><rect width="800" height="800" fill="url(#yunDensep05)" opacity=".22"/><rect width="800" height="800" fill="url(#halop05)"/><rect width="800" height="800" filter="url(#grainp05)" opacity=".6"/><ellipse cx="400" cy="648" rx="214" ry="24" fill="#3B2E22" opacity=".22" filter="url(#softp05)"/>
+  <g transform="rotate(-4.0 282 302)">
+    <rect x="178" y="198" width="208" height="208" rx="8" fill="#B7A184" opacity=".5" transform="translate(6 10)"/>
+    <rect x="178" y="198" width="208" height="208" rx="8" fill="#EADDC2" stroke="#5C4A33" stroke-width="2"/>
+    <rect x="186" y="206" width="192" height="192" rx="5" fill="url(#brickp05)" opacity=".85"/>
+    <rect x="198" y="218" width="168" height="168" rx="3" fill="none" stroke="#B08246" stroke-width="1.1" opacity=".7"/>
+    <text x="282" y="334" text-anchor="middle" font-family="'Noto Serif SC','STZhongsong','SimSun',serif" font-size="78" fill="#9C2B25" opacity=".86">金</text>
+    <circle cx="356" cy="376" r="9" fill="#9C2B25" opacity=".55"/>
+  </g>
+  <g transform="rotate(-1.7999999999999998 518 302)">
+    <rect x="414" y="198" width="208" height="208" rx="8" fill="#B7A184" opacity=".5" transform="translate(6 10)"/>
+    <rect x="414" y="198" width="208" height="208" rx="8" fill="#EADDC2" stroke="#5C4A33" stroke-width="2"/>
+    <rect x="422" y="206" width="192" height="192" rx="5" fill="url(#brickp05)" opacity=".85"/>
+    <rect x="434" y="218" width="168" height="168" rx="3" fill="none" stroke="#B08246" stroke-width="1.1" opacity=".7"/>
+    <text x="518" y="334" text-anchor="middle" font-family="'Noto Serif SC','STZhongsong','SimSun',serif" font-size="78" fill="#9C2B25" opacity=".86">陵</text>
+    <circle cx="592" cy="376" r="9" fill="#9C2B25" opacity=".55"/>
+  </g>
+  <g transform="rotate(0.40000000000000036 282 538)">
+    <rect x="178" y="434" width="208" height="208" rx="8" fill="#B7A184" opacity=".5" transform="translate(6 10)"/>
+    <rect x="178" y="434" width="208" height="208" rx="8" fill="#EADDC2" stroke="#5C4A33" stroke-width="2"/>
+    <rect x="186" y="442" width="192" height="192" rx="5" fill="url(#brickp05)" opacity=".85"/>
+    <rect x="198" y="454" width="168" height="168" rx="3" fill="none" stroke="#B08246" stroke-width="1.1" opacity=".7"/>
+    <text x="282" y="570" text-anchor="middle" font-family="'Noto Serif SC','STZhongsong','SimSun',serif" font-size="78" fill="#9C2B25" opacity=".86">造</text>
+    <circle cx="356" cy="612" r="9" fill="#9C2B25" opacity=".55"/>
+  </g>
+  <g transform="rotate(2.6000000000000005 518 538)">
+    <rect x="414" y="434" width="208" height="208" rx="8" fill="#B7A184" opacity=".5" transform="translate(6 10)"/>
+    <rect x="414" y="434" width="208" height="208" rx="8" fill="#EADDC2" stroke="#5C4A33" stroke-width="2"/>
+    <rect x="422" y="442" width="192" height="192" rx="5" fill="url(#brickp05)" opacity=".85"/>
+    <rect x="434" y="454" width="168" height="168" rx="3" fill="none" stroke="#B08246" stroke-width="1.1" opacity=".7"/>
+    <text x="518" y="570" text-anchor="middle" font-family="'Noto Serif SC','STZhongsong','SimSun',serif" font-size="78" fill="#9C2B25" opacity=".86">物</text>
+    <circle cx="592" cy="612" r="9" fill="#9C2B25" opacity=".55"/>
+  </g><g transform="translate(660 690)">
+    <rect width="38" height="38" rx="3" fill="#9C2B25"/>
+    <rect x="3" y="3" width="32" height="32" rx="2" fill="none" stroke="#F6E9D8" stroke-width="1" opacity=".8"/>
+    <text x="19.0" y="25.0" text-anchor="middle" font-family="'Noto Serif SC','STZhongsong','SimSun',serif" font-size="16.72" fill="#F6E9D8" letter-spacing="1">金陵</text>
+  </g></svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img"><defs>
+  <pattern id="yunp06" width="96" height="96" patternUnits="userSpaceOnUse">
+    <path d="M48 6 L90 48 L48 90 L6 48 Z" fill="none" stroke="#D9B97C" stroke-width="1" opacity=".62"/>
+    <path d="M48 24 L72 48 L48 72 L24 48 Z" fill="none" stroke="#D9B97C" stroke-width="0.8" opacity=".42"/>
+    <path d="M48 40 c 8 0 8 8 0 8 c -8 0 -8 -8 0 -8 Z" fill="#D9B97C" opacity=".55"/>
+    <path d="M48 0 v 10 M48 86 v 10 M0 48 h 10 M86 48 h 10" stroke="#D9B97C" stroke-width="0.7" opacity=".3"/>
+  </pattern>
+  <pattern id="yunDensep06" width="64" height="64" patternUnits="userSpaceOnUse">
+    <path d="M32 4 L60 32 L32 60 L4 32 Z" fill="none" stroke="#D9B97C" stroke-width="0.9" opacity=".5"/>
+    <circle cx="32" cy="32" r="3.4" fill="#D9B97C" opacity=".55"/>
+    <circle cx="0" cy="0" r="2.2" fill="#D9B97C" opacity=".35"/>
+    <circle cx="64" cy="64" r="2.2" fill="#D9B97C" opacity=".35"/>
+  </pattern>
+  <pattern id="brickp06" width="104" height="52" patternUnits="userSpaceOnUse">
+    <rect width="104" height="52" fill="none"/>
+    <path d="M0 0 H104 M0 26 H104 M0 52 H104 M52 0 V26 M0 26 V52 M104 26 V52"
+          stroke="#1B2426" stroke-width="1.1" opacity=".3" fill="none"/>
+    <path d="M0 0 H104" stroke="#1B2426" stroke-width="1.4" opacity=".18"/>
+  </pattern>
+  <pattern id="wavep06" width="44" height="20" patternUnits="userSpaceOnUse">
+    <path d="M0 15 q 11 -11 22 0 t 22 0" fill="none" stroke="#5F7F78" stroke-width="0.9" opacity=".35"/>
+  </pattern>
+  <filter id="softp06" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="16"/>
+  </filter>
+  <filter id="grainp06" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="11"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+  </filter>
+  <radialGradient id="halop06" cx="50%" cy="46%" r="55%">
+    <stop offset="0" stop-color="#FFF9EC" stop-opacity=".95"/>
+    <stop offset="62%" stop-color="#F6EEDC" stop-opacity=".35"/>
+    <stop offset="100%" stop-color="#E7DAC1" stop-opacity="0"/>
+  </radialGradient>
+</defs><rect width="800" height="800" fill="#F4ECDB"/><rect width="800" height="800" fill="url(#yunp06)" opacity=".22"/><rect width="800" height="800" fill="url(#halop06)"/><rect width="800" height="800" filter="url(#grainp06)" opacity=".6"/><ellipse cx="400" cy="716" rx="146" ry="18" fill="#3B2E22" opacity=".22" filter="url(#softp06)"/>
+  <defs>
+    <linearGradient id="canvasp06" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F3EBDA"/><stop offset=".55" stop-color="#E6D9BE"/><stop offset="1" stop-color="#D8C7A6"/>
+    </linearGradient>
+  </defs>
+  <path d="M262 276 C 262 206 300 162 400 162 C 500 162 538 206 538 276" fill="none" stroke="#C0AC8A" stroke-width="14"/>
+  <path d="M262 276 C 262 206 300 162 400 162 C 500 162 538 206 538 276" fill="none" stroke="#8C7A5C" stroke-width="1.2" opacity=".45"/>
+  <path d="M248 252 h304 l 24 404 q -176 36 -352 0 Z" fill="url(#canvasp06)" stroke="#6E5B41" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M248 252 h304 l 6 74 h -316 Z" fill="#CFBD9C" opacity=".5"/>
+  <path d="M270 300 q 130 20 260 0" fill="none" stroke="#6E5B41" stroke-width="1" opacity=".35" stroke-dasharray="7 5"/>
+  <path d="M300 262 q 100 44 200 0" fill="none" stroke="#6E5B41" stroke-width="1.4" opacity=".4"/>
+  
+    <g transform="translate(395 470)">
+      <path d="M-96 6 C -96 -30 -58 -52 -12 -52 C 20 -52 44 -44 54 -30 L 54 -78 C 54 -104 70 -118 88 -110 C 100 -105 106 -92 104 -80 L 126 -76 L 104 -64 C 106 -52 100 -40 88 -34 L 70 -34 C 88 -16 96 8 92 28 C 86 58 46 74 0 74 C -46 74 -84 52 -92 28 C -95 20 -96 12 -96 6 Z" fill="#9C2B25"/>
+      <circle cx="92" cy="-97" r="4.2" fill="#F6ECDA"/>
+      <path d="M-48 2 C -18 -12 22 -10 44 6 C 22 22 -16 24 -48 2 Z" fill="#F6ECDA" opacity=".28"/>
+      <path d="M-96 6 L -122 -8 L -104 18 Z" fill="#9C2B25"/>
+    </g>
+  <text x="400" y="602" text-anchor="middle" font-family="'Noto Serif SC','STZhongsong','SimSun',serif" font-size="21" fill="#1B2426" opacity=".62" letter-spacing="9">金 陵 · 盐 水 鸭</text>
+  <g transform="translate(556 560) rotate(-8)">
+    <rect width="74" height="74" rx="2" fill="none" stroke="#9C2B25" stroke-width="2" opacity=".8"/>
+    <text x="37" y="30" text-anchor="middle" font-family="'Noto Serif SC','STZhongsong','SimSun',serif" font-size="20" fill="#9C2B25" opacity=".85">老</text>
+    <text x="37" y="56" text-anchor="middle" font-family="'Noto Serif SC','STZhongsong','SimSun',serif" font-size="20" fill="#9C2B25" opacity=".85">味</text>
+  </g></svg>

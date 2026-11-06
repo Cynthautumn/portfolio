@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 880" width="760" height="880" role="img"><defs>
+  <pattern id="yunhero02" width="96" height="96" patternUnits="userSpaceOnUse">
+    <path d="M48 6 L90 48 L48 90 L6 48 Z" fill="none" stroke="#D9B97C" stroke-width="1" opacity=".62"/>
+    <path d="M48 24 L72 48 L48 72 L24 48 Z" fill="none" stroke="#D9B97C" stroke-width="0.8" opacity=".42"/>
+    <path d="M48 40 c 8 0 8 8 0 8 c -8 0 -8 -8 0 -8 Z" fill="#D9B97C" opacity=".55"/>
+    <path d="M48 0 v 10 M48 86 v 10 M0 48 h 10 M86 48 h 10" stroke="#D9B97C" stroke-width="0.7" opacity=".3"/>
+  </pattern>
+  <pattern id="yunDensehero02" width="64" height="64" patternUnits="userSpaceOnUse">
+    <path d="M32 4 L60 32 L32 60 L4 32 Z" fill="none" stroke="#D9B97C" stroke-width="0.9" opacity=".5"/>
+    <circle cx="32" cy="32" r="3.4" fill="#D9B97C" opacity=".55"/>
+    <circle cx="0" cy="0" r="2.2" fill="#D9B97C" opacity=".35"/>
+    <circle cx="64" cy="64" r="2.2" fill="#D9B97C" opacity=".35"/>
+  </pattern>
+  <pattern id="brickhero02" width="104" height="52" patternUnits="userSpaceOnUse">
+    <rect width="104" height="52" fill="none"/>
+    <path d="M0 0 H104 M0 26 H104 M0 52 H104 M52 0 V26 M0 26 V52 M104 26 V52"
+          stroke="#1B2426" stroke-width="1.1" opacity=".3" fill="none"/>
+    <path d="M0 0 H104" stroke="#1B2426" stroke-width="1.4" opacity=".18"/>
+  </pattern>
+  <pattern id="wavehero02" width="44" height="20" patternUnits="userSpaceOnUse">
+    <path d="M0 15 q 11 -11 22 0 t 22 0" fill="none" stroke="#5F7F78" stroke-width="0.9" opacity=".35"/>
+  </pattern>
+  <filter id="softhero02" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="16"/>
+  </filter>
+  <filter id="grainhero02" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="11"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+  </filter>
+  <radialGradient id="halohero02" cx="50%" cy="46%" r="55%">
+    <stop offset="0" stop-color="#FFF9EC" stop-opacity=".95"/>
+    <stop offset="62%" stop-color="#F6EEDC" stop-opacity=".35"/>
+    <stop offset="100%" stop-color="#E7DAC1" stop-opacity="0"/>
+  </radialGradient>
+</defs><circle cx="380" cy="440" r="320" fill="none" stroke="#B08246" stroke-width="0.7" opacity=".2"/>
+  <g transform="translate(238 292) scale(0.92)">
+    <path d="M0 -220 V -150" stroke="#B08246" stroke-width="1.6" opacity=".75"/>
+    <circle cx="0" cy="-160" r="9" fill="none" stroke="#B08246" stroke-width="1.2" opacity=".8"/>
+    <ellipse cx="0" cy="0" rx="92" ry="118" fill="#A0302A"/>
+    <ellipse cx="0" cy="0" rx="92" ry="118" fill="url(#yunDensehero02)" opacity=".5"/>
+    <ellipse cx="0" cy="0" rx="92" ry="118" fill="none" stroke="#D9B97C" stroke-width="1.4"/>
+    <path d="M-92 0 h184 M0 -118 v236" stroke="#D9B97C" stroke-width="0.8" opacity=".55" fill="none"/>
+    <ellipse cx="0" cy="-118" rx="44" ry="11" fill="#E8C98F" stroke="#B08246" stroke-width="1.2"/>
+    <ellipse cx="0" cy="118" rx="44" ry="11" fill="#E8C98F" stroke="#B08246" stroke-width="1.2"/>
+    <g stroke="#B08246" stroke-width="1.6" opacity=".9" fill="none">
+      <path d="M0 128 v 30"/><path d="M0 158 l -11 30 M0 158 v 34 M0 158 l 11 30"/>
+    </g>
+  </g>
+  <circle cx="238" cy="302" r="206" fill="#F0B968" opacity=".05"/>
+  <g transform="translate(400 214) scale(1.14)">
+    <path d="M0 -220 V -150" stroke="#B08246" stroke-width="1.6" opacity=".75"/>
+    <circle cx="0" cy="-160" r="9" fill="none" stroke="#B08246" stroke-width="1.2" opacity=".8"/>
+    <ellipse cx="0" cy="0" rx="92" ry="118" fill="#A0302A"/>
+    <ellipse cx="0" cy="0" rx="92" ry="118" fill="url(#yunDensehero02)" opacity=".5"/>
+    <ellipse cx="0" cy="0" rx="92" ry="118" fill="none" stroke="#D9B97C" stroke-width="1.4"/>
+    <path d="M-92 0 h184 M0 -118 v236" stroke="#D9B97C" stroke-width="0.8" opacity=".55" fill="none"/>
+    <ellipse cx="0" cy="-118" rx="44" ry="11" fill="#E8C98F" stroke="#B08246" stroke-width="1.2"/>
+    <ellipse cx="0" cy="118" rx="44" ry="11" fill="#E8C98F" stroke="#B08246" stroke-width="1.2"/>
+    <g stroke="#B08246" stroke-width="1.6" opacity=".9" fill="none">
+      <path d="M0 128 v 30"/><path d="M0 158 l -11 30 M0 158 v 34 M0 158 l 11 30"/>
+    </g>
+  </g>
+  <circle cx="400" cy="224" r="256" fill="#F0B968" opacity=".05"/>
+  <g transform="translate(552 322) scale(0.78)">
+    <path d="M0 -220 V -150" stroke="#B08246" stroke-width="1.6" opacity=".75"/>
+    <circle cx="0" cy="-160" r="9" fill="none" stroke="#B08246" stroke-width="1.2" opacity=".8"/>
+    <ellipse cx="0" cy="0" rx="92" ry="118" fill="#A0302A"/>
+    <ellipse cx="0" cy="0" rx="92" ry="118" fill="url(#yunDensehero02)" opacity=".5"/>
+    <ellipse cx="0" cy="0" rx="92" ry="118" fill="none" stroke="#D9B97C" stroke-width="1.4"/>
+    <path d="M-92 0 h184 M0 -118 v236" stroke="#D9B97C" stroke-width="0.8" opacity=".55" fill="none"/>
+    <ellipse cx="0" cy="-118" rx="44" ry="11" fill="#E8C98F" stroke="#B08246" stroke-width="1.2"/>
+    <ellipse cx="0" cy="118" rx="44" ry="11" fill="#E8C98F" stroke="#B08246" stroke-width="1.2"/>
+    <g stroke="#B08246" stroke-width="1.6" opacity=".9" fill="none">
+      <path d="M0 128 v 30"/><path d="M0 158 l -11 30 M0 158 v 34 M0 158 l 11 30"/>
+    </g>
+  </g>
+  <circle cx="552" cy="332" r="175" fill="#F0B968" opacity=".05"/><path d="M80 748 q 150 -54 300 0 t 300 0" fill="none" stroke="#5F7F78" stroke-width="1" opacity=".5"/></svg>

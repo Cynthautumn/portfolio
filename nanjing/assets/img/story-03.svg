@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" width="720" height="480" role="img"><defs>
+  <pattern id="yunstory03" width="96" height="96" patternUnits="userSpaceOnUse">
+    <path d="M48 6 L90 48 L48 90 L6 48 Z" fill="none" stroke="#D9B97C" stroke-width="1" opacity=".62"/>
+    <path d="M48 24 L72 48 L48 72 L24 48 Z" fill="none" stroke="#D9B97C" stroke-width="0.8" opacity=".42"/>
+    <path d="M48 40 c 8 0 8 8 0 8 c -8 0 -8 -8 0 -8 Z" fill="#D9B97C" opacity=".55"/>
+    <path d="M48 0 v 10 M48 86 v 10 M0 48 h 10 M86 48 h 10" stroke="#D9B97C" stroke-width="0.7" opacity=".3"/>
+  </pattern>
+  <pattern id="yunDensestory03" width="64" height="64" patternUnits="userSpaceOnUse">
+    <path d="M32 4 L60 32 L32 60 L4 32 Z" fill="none" stroke="#D9B97C" stroke-width="0.9" opacity=".5"/>
+    <circle cx="32" cy="32" r="3.4" fill="#D9B97C" opacity=".55"/>
+    <circle cx="0" cy="0" r="2.2" fill="#D9B97C" opacity=".35"/>
+    <circle cx="64" cy="64" r="2.2" fill="#D9B97C" opacity=".35"/>
+  </pattern>
+  <pattern id="brickstory03" width="104" height="52" patternUnits="userSpaceOnUse">
+    <rect width="104" height="52" fill="none"/>
+    <path d="M0 0 H104 M0 26 H104 M0 52 H104 M52 0 V26 M0 26 V52 M104 26 V52"
+          stroke="#1B2426" stroke-width="1.1" opacity=".3" fill="none"/>
+    <path d="M0 0 H104" stroke="#1B2426" stroke-width="1.4" opacity=".18"/>
+  </pattern>
+  <pattern id="wavestory03" width="44" height="20" patternUnits="userSpaceOnUse">
+    <path d="M0 15 q 11 -11 22 0 t 22 0" fill="none" stroke="#5F7F78" stroke-width="0.9" opacity=".35"/>
+  </pattern>
+  <filter id="softstory03" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="16"/>
+  </filter>
+  <filter id="grainstory03" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="11"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+  </filter>
+  <radialGradient id="halostory03" cx="50%" cy="46%" r="55%">
+    <stop offset="0" stop-color="#FFF9EC" stop-opacity=".95"/>
+    <stop offset="62%" stop-color="#F6EEDC" stop-opacity=".35"/>
+    <stop offset="100%" stop-color="#E7DAC1" stop-opacity="0"/>
+  </radialGradient>
+</defs><rect width="720" height="480" fill="#F2E8D4"/><rect width="720" height="480" fill="url(#wavestory03)" opacity=".55"/>
+  <defs><clipPath id="sfanstory03"><path d="M360 474 L619.8 324.0 A300 300 0 0 1 582.9 273.3 A300 300 0 0 1 536.3 231.3 A300 300 0 0 1 482.0 199.9 A300 300 0 0 1 422.4 180.6 A300 300 0 0 1 360.0 174.0 A300 300 0 0 1 297.6 180.6 A300 300 0 0 1 238.0 199.9 A300 300 0 0 1 183.7 231.3 A300 300 0 0 1 137.1 273.3 A300 300 0 0 1 100.2 324.0 Z"/></clipPath></defs>
+  <path d="M360 474 L619.8 324.0 A300 300 0 0 1 582.9 273.3 A300 300 0 0 1 536.3 231.3 A300 300 0 0 1 482.0 199.9 A300 300 0 0 1 422.4 180.6 A300 300 0 0 1 360.0 174.0 A300 300 0 0 1 297.6 180.6 A300 300 0 0 1 238.0 199.9 A300 300 0 0 1 183.7 231.3 A300 300 0 0 1 137.1 273.3 A300 300 0 0 1 100.2 324.0 Z" fill="#FBF3E1" stroke="#1B2426" stroke-width="1.6"/>
+  <g clip-path="url(#sfanstory03)">
+    <path d="M180 350 q 70 -50 140 -14 t 150 -20" fill="none" stroke="#5F7F78" stroke-width="1.4" opacity=".55"/>
+    <path d="M200 392 q 80 -44 160 -12 t 140 -18" fill="none" stroke="#5F7F78" stroke-width="1" opacity=".4"/>
+    <path d="M300 300 q 40 -30 80 0" fill="none" stroke="#9C2B25" stroke-width="2" opacity=".5"/>
+  </g>
+<path d="M360 474 L582.9 273.3" stroke="#1B2426" stroke-width=".8" opacity=".3"/><path d="M360 474 L536.3 231.3" stroke="#1B2426" stroke-width=".8" opacity=".3"/><path d="M360 474 L482.0 199.9" stroke="#1B2426" stroke-width=".8" opacity=".3"/><path d="M360 474 L422.4 180.6" stroke="#1B2426" stroke-width=".8" opacity=".3"/><path d="M360 474 L360.0 174.0" stroke="#1B2426" stroke-width=".8" opacity=".3"/><path d="M360 474 L297.6 180.6" stroke="#1B2426" stroke-width=".8" opacity=".3"/><path d="M360 474 L238.0 199.9" stroke="#1B2426" stroke-width=".8" opacity=".3"/><path d="M360 474 L183.7 231.3" stroke="#1B2426" stroke-width=".8" opacity=".3"/><path d="M360 474 L137.1 273.3" stroke="#1B2426" stroke-width=".8" opacity=".3"/><circle cx="360" cy="474" r="8" fill="#B08246"/><text x="44" y="446" font-family="'Noto Serif SC','STZhongsong','SimSun',serif" font-size="17" fill="#1B2426" opacity=".55" letter-spacing="4">金陵折扇 · 秦淮八景</text></svg>

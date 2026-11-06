@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 880" width="760" height="880" role="img"><defs>
+  <pattern id="yunhero01" width="96" height="96" patternUnits="userSpaceOnUse">
+    <path d="M48 6 L90 48 L48 90 L6 48 Z" fill="none" stroke="#D9B97C" stroke-width="1" opacity=".62"/>
+    <path d="M48 24 L72 48 L48 72 L24 48 Z" fill="none" stroke="#D9B97C" stroke-width="0.8" opacity=".42"/>
+    <path d="M48 40 c 8 0 8 8 0 8 c -8 0 -8 -8 0 -8 Z" fill="#D9B97C" opacity=".55"/>
+    <path d="M48 0 v 10 M48 86 v 10 M0 48 h 10 M86 48 h 10" stroke="#D9B97C" stroke-width="0.7" opacity=".3"/>
+  </pattern>
+  <pattern id="yunDensehero01" width="64" height="64" patternUnits="userSpaceOnUse">
+    <path d="M32 4 L60 32 L32 60 L4 32 Z" fill="none" stroke="#D9B97C" stroke-width="0.9" opacity=".5"/>
+    <circle cx="32" cy="32" r="3.4" fill="#D9B97C" opacity=".55"/>
+    <circle cx="0" cy="0" r="2.2" fill="#D9B97C" opacity=".35"/>
+    <circle cx="64" cy="64" r="2.2" fill="#D9B97C" opacity=".35"/>
+  </pattern>
+  <pattern id="brickhero01" width="104" height="52" patternUnits="userSpaceOnUse">
+    <rect width="104" height="52" fill="none"/>
+    <path d="M0 0 H104 M0 26 H104 M0 52 H104 M52 0 V26 M0 26 V52 M104 26 V52"
+          stroke="#1B2426" stroke-width="1.1" opacity=".3" fill="none"/>
+    <path d="M0 0 H104" stroke="#1B2426" stroke-width="1.4" opacity=".18"/>
+  </pattern>
+  <pattern id="wavehero01" width="44" height="20" patternUnits="userSpaceOnUse">
+    <path d="M0 15 q 11 -11 22 0 t 22 0" fill="none" stroke="#5F7F78" stroke-width="0.9" opacity=".35"/>
+  </pattern>
+  <filter id="softhero01" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="16"/>
+  </filter>
+  <filter id="grainhero01" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="11"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+  </filter>
+  <radialGradient id="halohero01" cx="50%" cy="46%" r="55%">
+    <stop offset="0" stop-color="#FFF9EC" stop-opacity=".95"/>
+    <stop offset="62%" stop-color="#F6EEDC" stop-opacity=".35"/>
+    <stop offset="100%" stop-color="#E7DAC1" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+  <defs>
+    <linearGradient id="silkhero01" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B4433A"/><stop offset=".45" stop-color="#96281F"/><stop offset="1" stop-color="#6E1A15"/>
+    </linearGradient>
+    <mask id="ribbonAhero01">
+      <path d="M110 70 C 330 180 250 380 420 480 S 640 640 700 840" stroke="#fff" stroke-width="168" fill="none" stroke-linecap="round"/>
+    </mask>
+    <mask id="ribbonBhero01">
+      <path d="M196 46 C 396 156 330 344 490 444 S 690 614 738 812" stroke="#fff" stroke-width="72" fill="none" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <circle cx="380" cy="440" r="330" fill="none" stroke="#B08246" stroke-width="0.8" opacity=".26"/>
+  <circle cx="380" cy="440" r="284" fill="none" stroke="#B08246" stroke-width="0.6" opacity=".14"/>
+
+  <g opacity=".98">
+    <path d="M110 70 C 330 180 250 380 420 480 S 640 640 700 840" stroke="#D9B97C" stroke-width="178" fill="none" stroke-linecap="round" opacity=".85"/>
+    <path d="M110 70 C 330 180 250 380 420 480 S 640 640 700 840" stroke="url(#silkhero01)" stroke-width="168" fill="none" stroke-linecap="round"/>
+    <g mask="url(#ribbonAhero01)">
+      <rect width="760" height="880" fill="url(#yunDensehero01)" opacity=".75"/>
+      <path d="M60 60 C 300 300 420 520 800 860" stroke="#FFFFFF" stroke-width="30" opacity=".06" fill="none"/>
+      <path d="M40 260 C 260 300 320 360 360 420" stroke="#000000" stroke-width="46" opacity=".06" fill="none"/>
+    </g>
+    <path d="M110 70 C 330 180 250 380 420 480 S 640 640 700 840" stroke="#EBD7AC" stroke-width="1" fill="none" opacity=".5" stroke-dasharray="3 7"/>
+
+    <path d="M196 46 C 396 156 330 344 490 444 S 690 614 738 812" stroke="#D9B97C" stroke-width="80" fill="none" stroke-linecap="round" opacity=".75"/>
+    <path d="M196 46 C 396 156 330 344 490 444 S 690 614 738 812" stroke="url(#silkhero01)" stroke-width="72" fill="none" stroke-linecap="round" opacity=".95"/>
+    <g mask="url(#ribbonBhero01)">
+      <rect width="760" height="880" fill="url(#yunDensehero01)" opacity=".6"/>
+      <path d="M700 60 C 520 300 380 520 120 860" stroke="#000000" stroke-width="26" opacity=".07" fill="none"/>
+    </g>
+  </g>
+
+  <g fill="#D9B97C" opacity=".75">
+    <circle cx="168" cy="700" r="3"/><circle cx="238" cy="742" r="2"/><circle cx="612" cy="330" r="2.6"/>
+    <circle cx="668" cy="392" r="1.8"/><circle cx="300" cy="196" r="2.2"/><circle cx="556" cy="704" r="2"/>
+  </g>
+  <path d="M60 800 q 70 -44 150 -8 q 80 36 170 -18" fill="none" stroke="#B08246" stroke-width="1" opacity=".4"/>
+</svg>
