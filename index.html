@@ -88,7 +88,7 @@
     <div class="wrap">
       <div class="stat-band reveal">
         <div><b>2<em>个</em></b><span>完整项目</span></div>
-        <div><b>54,370<em>条</em></b><span>消费流水样本</span></div>
+        <div><b>54,370<em>条</em></b><span>模拟流水样本</span></div>
         <div><b>8<em>页</em></b><span>前端页面</span></div>
         <div><b>7<em>类</em></b><span>JavaScript 交互</span></div>
       </div>
@@ -99,7 +99,7 @@
         <div class="section-head reveal">
           <span class="kicker">SELECTED WORK</span>
           <h2>两个项目，两种能力</h2>
-          <p>一个从数据出发，把 5.4 万条流水变成资助与预警；一个从品牌出发，把南京非遗做成可浏览、可加购的电商前端。都能直接点开体验。</p>
+          <p>一个从数据出发，把 5.4 万条模拟流水变成资助与预警；一个从品牌出发，把南京非遗做成可浏览、可加购的电商前端。都能直接点开体验。</p>
         </div>
 
         <article class="project reveal" id="campus">
@@ -111,9 +111,10 @@
           <div class="project-body">
             <div class="project-top"><span class="project-no">01</span> <span class="project-type">DATA SYSTEM · FULL STACK</span></div>
             <h3>校园一卡通消费精准资助<br>与异常预警系统</h3>
-            <p class="project-lead">把校园里每天发生的消费流水，转成可解释的资助候选与风险信号。</p>
+            <p class="project-lead">把校园场景里的消费流水，转成可解释的资助候选与风险信号。</p>
+            <p style="display:flex;align-items:center;gap:7px;margin:0 0 16px;font-size:10.5px;color:#999287"><span style="flex:none;padding:3px 6px;border-radius:4px;background:#f3ead9;color:#b08a4f;font-size:9px;font-weight:700;letter-spacing:.6px">数据说明</span>5.4 万条模拟流水，姓名与学号已匿名化</p>
             <ul class="project-points">
-              <li><b>数据管道：</b>Pandas 清洗 + SQL 聚合，按学生计算 10 个月月均消费，过滤空值与重复记录。</li>
+              <li><b>数据管道：</b>Pandas 清洗 + SQL 聚合，按学生计算 10 个月月均消费，过滤空值与格式异常。</li>
               <li><b>资助闭环：</b>区间阈值筛选、走读/住读身份标注、行为画像、审核通过 / 驳回。</li>
               <li><b>风险规则：</b>「单笔大额且超个人均值 3 倍」与「23:00–05:00 刷卡」双规则，支持一键结案。</li>
             </ul>
@@ -132,7 +133,7 @@
             <div><h4>02 · 资助筛选</h4><p>按 0–700 元区间筛选候选，保留走读/住读身份与预警关联；审核状态在浏览器本地持久化。</p></div>
             <div><h4>03 · 风险规则</h4><p>大额规则要求同时满足金额与个人均值倍数，深夜规则覆盖 23:00–05:00；命中后进入待处理队列。</p></div>
           </div>
-          <p class="detail-note">作品集内为纯静态复刻版：保留全部交互，数据内置且已脱敏；原始系统为 Flask + SQLite + Pandas。</p>
+          <p class="detail-note">作品集内为纯静态复刻版：保留全部交互，数据为程序生成的模拟数据并内置；原始系统为 Flask + SQLite + Pandas。</p>
         </details>
 
         <article class="project reverse reveal" id="nanjing">

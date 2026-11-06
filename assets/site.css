@@ -262,7 +262,9 @@ svg { display: block; }
   font-family: var(--serif); font-size: clamp(25px, 2.7vw, 34px);
   line-height: 1.28; letter-spacing: -1px; font-weight: 700; margin: 10px 0 14px;
 }
-.project-lead { color: var(--muted); font-size: 14px; line-height: 1.8; margin-bottom: 18px; }
+.project-lead { color: var(--muted); font-size: 14px; line-height: 1.8; margin-bottom: 10px; }
+.project-note { display: flex; align-items: center; gap: 7px; margin: 0 0 16px; font-size: 10.5px; color: var(--muted-2); }
+.project-note span { flex: none; padding: 3px 6px; border-radius: 4px; background: var(--gold-soft); color: var(--gold); font-size: 9px; font-weight: 700; letter-spacing: .6px; }
 .project-points { display: flex; flex-direction: column; gap: 9px; margin-bottom: 20px; }
 .project-points li {
   position: relative; padding-left: 17px; color: var(--ink-2);

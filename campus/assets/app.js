@@ -263,7 +263,7 @@
       "<li><b>行为画像：</b>在资助名单中关联预警记录，提示审核人员先核查风险再发放。</li></ul>" +
       "<h4>技术实现</h4>" +
       '<div class="tech-row"><span>Python</span><span>Flask</span><span>SQLite</span><span>Pandas</span><span>SQL 聚合</span><span>HTML5</span><span>CSS3</span><span>原生 JavaScript</span></div>' +
-      '<p style="margin-top:10px">原始系统为 Flask + SQLite + Pandas；本页是保留全部交互的纯静态演示版，数据已脱敏并内置在浏览器中，审核/结案操作只写入本地 localStorage，不会影响真实数据。</p>' +
+      '<p style="margin-top:10px">原始系统为 Flask + SQLite + Pandas；本页是保留全部交互的纯静态演示版，数据为程序生成的模拟数据并内置在浏览器中，审核/结案操作只写入本地 localStorage，不会影响原始数据。</p>' +
       "<h4>演示提示</h4>" +
       "<ul><li>消费数据页可上传 CSV，或点击「注入 3 条演示异常」快速看到预警规则生效。</li>" +
       "<li>资助页调整区间后点击「执行计算」，可新增候选并审批。</li>" +
@@ -381,8 +381,8 @@
     var content = $("#content");
     content.innerHTML =
       '<div class="page-head">' +
-        "<div><h1>数据驾驶舱</h1><p>把 " + num(m.records) + " 条校园一卡通流水，变成可解释的资助依据与风险信号。当前为免登录演示模式，所有操作仅在浏览器本地生效。</p></div>" +
-        '<div class="head-actions"><span class="chip green">● 数据已脱敏</span><span class="chip">免登录体验</span></div>' +
+        "<div><h1>数据驾驶舱</h1><p>把 " + num(m.records) + " 条模拟校园一卡通流水，变成可解释的资助依据与风险信号。当前为免登录演示模式，所有操作仅在浏览器本地生效。</p></div>" +
+        '<div class="head-actions"><span class="chip green">● 模拟数据</span><span class="chip">免登录体验</span></div>' +
       "</div>" +
       '<div class="kpi-grid">' +
         kpi("users", "覆盖学生", num(m.students), "人", "10 个月", "blue") +
